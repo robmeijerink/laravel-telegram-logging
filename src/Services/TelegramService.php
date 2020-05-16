@@ -9,7 +9,6 @@ namespace RLaurindo\TelegramLogger;
  */
 class TelegramService
 {
-
     /**
      * Telegram base API URL
      *
@@ -82,7 +81,7 @@ class TelegramService
     private function getResponseStatusCode(string $url): string
     {
         $requestHeaders = get_headers($url);
-        $requestStatusCode = substr($requestHeaders[0], 9, 3);
-        return $requestStatusCode;
+
+        return substr($requestHeaders[0], 9, 3);
     }
 }
