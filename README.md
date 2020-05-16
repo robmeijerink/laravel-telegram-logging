@@ -2,6 +2,8 @@
 
 Send Laravel logs to a Telegram chat via Telegram Bot.
 
+NOTE: This fork restores support for Laravel 5.6 - 5.8.
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LUAC5W7GF2BVW&source=url)
 [![license](https://img.shields.io/github/license/rafaellaurindo/laravel-telegram-logging.svg)](https://github.com/rafaellaurindo/laravel-telegram-logging/blob/master/LICENSE)
 
